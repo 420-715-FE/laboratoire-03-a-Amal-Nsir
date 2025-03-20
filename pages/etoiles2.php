@@ -3,7 +3,13 @@
 $matrice = [];
 
 // AJOUTEZ VOTRE CODE CI-DESSOUS
+for ($i=0; $i<10; $i++) {
+    $matrice[] = [];
+    for ($j=0; $j<$i; $j++) {
+        $matrice[$i][] = "*";
+    }
 
+}
 
 
 // NE MODIFIEZ RIEN APRÈS CETTE LIGNE
